@@ -14,6 +14,7 @@
 		4A72CCE31E80FC4D00392C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A72CCE11E80FC4D00392C54 /* LaunchScreen.storyboard */; };
 		4A72CCEE1E80FC4D00392C54 /* tiptopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72CCED1E80FC4D00392C54 /* tiptopTests.swift */; };
 		4A72CCF91E80FC4D00392C54 /* tiptopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72CCF81E80FC4D00392C54 /* tiptopUITests.swift */; };
+		4A72CD071E817BC900392C54 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72CD061E817BC900392C54 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4A72CCF41E80FC4D00392C54 /* tiptopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiptopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A72CCF81E80FC4D00392C54 /* tiptopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiptopUITests.swift; sourceTree = "<group>"; };
 		4A72CCFA1E80FC4D00392C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A72CD061E817BC900392C54 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4A72CCD81E80FC4D00392C54 /* AppDelegate.swift */,
+				4A72CD061E817BC900392C54 /* SettingsViewController.swift */,
 				4A72CCDA1E80FC4D00392C54 /* ViewController.swift */,
 				4A72CCDC1E80FC4D00392C54 /* Main.storyboard */,
 				4A72CCDF1E80FC4D00392C54 /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					4A72CCD41E80FC4C00392C54 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KBLDMTDV5G;
 						ProvisioningStyle = Automatic;
 					};
 					4A72CCE81E80FC4D00392C54 = {
@@ -261,6 +265,7 @@
 			files = (
 				4A72CCDB1E80FC4D00392C54 /* ViewController.swift in Sources */,
 				4A72CCD91E80FC4D00392C54 /* AppDelegate.swift in Sources */,
+				4A72CD071E817BC900392C54 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBLDMTDV5G;
 				INFOPLIST_FILE = tiptop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = THL.tiptop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBLDMTDV5G;
 				INFOPLIST_FILE = tiptop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = THL.tiptop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +512,7 @@
 				4A72CCFF1E80FC4D00392C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A72CD001E80FC4D00392C54 /* Build configuration list for PBXNativeTarget "tiptopTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				4A72CD021E80FC4D00392C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A72CD031E80FC4D00392C54 /* Build configuration list for PBXNativeTarget "tiptopUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				4A72CD051E80FC4D00392C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
